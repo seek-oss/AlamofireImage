@@ -78,7 +78,7 @@ extension DataRequest {
     /// - returns: An image response serializer.
     public class func imageResponseSerializer(
         imageScale: CGFloat = DataRequest.imageScale,
-        inflateResponseImage: Bool = true)
+        inflateResponseImage: Bool = false)
         -> DataResponseSerializer<Image>
     {
         return DataResponseSerializer { request, response, data, error in
