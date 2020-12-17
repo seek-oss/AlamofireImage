@@ -46,7 +46,8 @@ extension DataRequest {
         "image/x-bmp",
         "image/x-xbitmap",
         "image/x-ms-bmp",
-        "image/x-win-bitmap"
+        "image/x-win-bitmap",
+        "application/octet-stream"
     ]
 
     static let streamImageInitialBytePattern = Data(bytes: [255, 216]) // 0xffd8
